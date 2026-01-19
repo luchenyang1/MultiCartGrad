@@ -40,7 +40,7 @@ def readClinic(labelPath):
         d = list(ClinicData.iloc[i, [3, 7]])
         id = str(ClinicData.iloc[i, 0])
         sampleClinic.append((id, d))
-    # 返回 [(id, clinic_data), ...]
+    # [(id, clinic_data), ...]
     return sampleClinic
 
 def readText(labelPath):
